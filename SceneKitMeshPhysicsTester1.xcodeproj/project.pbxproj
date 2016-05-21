@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEC4A7101CEFF7F40039A99F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4A70F1CEFF7F40039A99F /* AppDelegate.swift */; };
+		EEC4A7121CEFF7F40039A99F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC4A7111CEFF7F40039A99F /* art.scnassets */; };
+		EEC4A7141CEFF7F40039A99F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC4A7131CEFF7F40039A99F /* GameViewController.swift */; };
+		EEC4A7171CEFF7F40039A99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC4A7151CEFF7F40039A99F /* Main.storyboard */; };
+		EEC4A7191CEFF7F40039A99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC4A7181CEFF7F40039A99F /* Assets.xcassets */; };
+		EEC4A71C1CEFF7F40039A99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC4A71A1CEFF7F40039A99F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEC4A70C1CEFF7F40039A99F /* SceneKitMeshPhysicsTester1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitMeshPhysicsTester1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC4A70F1CEFF7F40039A99F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEC4A7111CEFF7F40039A99F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		EEC4A7131CEFF7F40039A99F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EEC4A7161CEFF7F40039A99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEC4A7181CEFF7F40039A99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEC4A71B1CEFF7F40039A99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEC4A71D1CEFF7F40039A99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC4A7091CEFF7F40039A99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEC4A7031CEFF7F40039A99F = {
+			isa = PBXGroup;
+			children = (
+				EEC4A70E1CEFF7F40039A99F /* SceneKitMeshPhysicsTester1 */,
+				EEC4A70D1CEFF7F40039A99F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC4A70D1CEFF7F40039A99F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC4A70C1CEFF7F40039A99F /* SceneKitMeshPhysicsTester1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC4A70E1CEFF7F40039A99F /* SceneKitMeshPhysicsTester1 */ = {
+			isa = PBXGroup;
+			children = (
+				EEC4A70F1CEFF7F40039A99F /* AppDelegate.swift */,
+				EEC4A7111CEFF7F40039A99F /* art.scnassets */,
+				EEC4A7131CEFF7F40039A99F /* GameViewController.swift */,
+				EEC4A7151CEFF7F40039A99F /* Main.storyboard */,
+				EEC4A7181CEFF7F40039A99F /* Assets.xcassets */,
+				EEC4A71A1CEFF7F40039A99F /* LaunchScreen.storyboard */,
+				EEC4A71D1CEFF7F40039A99F /* Info.plist */,
+			);
+			path = SceneKitMeshPhysicsTester1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEC4A70B1CEFF7F40039A99F /* SceneKitMeshPhysicsTester1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC4A7201CEFF7F40039A99F /* Build configuration list for PBXNativeTarget "SceneKitMeshPhysicsTester1" */;
+			buildPhases = (
+				EEC4A7081CEFF7F40039A99F /* Sources */,
+				EEC4A7091CEFF7F40039A99F /* Frameworks */,
+				EEC4A70A1CEFF7F40039A99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SceneKitMeshPhysicsTester1;
+			productName = SceneKitMeshPhysicsTester1;
+			productReference = EEC4A70C1CEFF7F40039A99F /* SceneKitMeshPhysicsTester1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC4A7041CEFF7F40039A99F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dan Goyette";
+				TargetAttributes = {
+					EEC4A70B1CEFF7F40039A99F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EEC4A7071CEFF7F40039A99F /* Build configuration list for PBXProject "SceneKitMeshPhysicsTester1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC4A7031CEFF7F40039A99F;
+			productRefGroup = EEC4A70D1CEFF7F40039A99F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC4A70B1CEFF7F40039A99F /* SceneKitMeshPhysicsTester1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC4A70A1CEFF7F40039A99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC4A7121CEFF7F40039A99F /* art.scnassets in Resources */,
+				EEC4A71C1CEFF7F40039A99F /* LaunchScreen.storyboard in Resources */,
+				EEC4A7191CEFF7F40039A99F /* Assets.xcassets in Resources */,
+				EEC4A7171CEFF7F40039A99F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC4A7081CEFF7F40039A99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC4A7141CEFF7F40039A99F /* GameViewController.swift in Sources */,
+				EEC4A7101CEFF7F40039A99F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEC4A7151CEFF7F40039A99F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC4A7161CEFF7F40039A99F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEC4A71A1CEFF7F40039A99F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC4A71B1CEFF7F40039A99F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEC4A71E1CEFF7F40039A99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEC4A71F1CEFF7F40039A99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC4A7211CEFF7F40039A99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SceneKitMeshPhysicsTester1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = G.SceneKitMeshPhysicsTester1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEC4A7221CEFF7F40039A99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SceneKitMeshPhysicsTester1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = G.SceneKitMeshPhysicsTester1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC4A7071CEFF7F40039A99F /* Build configuration list for PBXProject "SceneKitMeshPhysicsTester1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC4A71E1CEFF7F40039A99F /* Debug */,
+				EEC4A71F1CEFF7F40039A99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC4A7201CEFF7F40039A99F /* Build configuration list for PBXNativeTarget "SceneKitMeshPhysicsTester1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC4A7211CEFF7F40039A99F /* Debug */,
+				EEC4A7221CEFF7F40039A99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC4A7041CEFF7F40039A99F /* Project object */;
+}
