@@ -12,11 +12,14 @@ import SceneKit
 
 class GameViewController: UIViewController {
 
+    
+    let scene = SCNScene()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // create a new scene
-        let scene = SCNScene()
+        
         
         // create and add a camera to the scene
         let cameraNode = SCNNode()
@@ -24,7 +27,7 @@ class GameViewController: UIViewController {
         scene.rootNode.addChildNode(cameraNode)
         
         // place the camera
-        cameraNode.position = SCNVector3(x: 0, y: 0, z: 15)
+        cameraNode.position = SCNVector3(x: 0, y: 0, z: 25)
         
         // create and add a light to the scene
         let lightNode = SCNNode()
@@ -54,8 +57,44 @@ class GameViewController: UIViewController {
         
         // configure the view
         scnView.backgroundColor = UIColor.blackColor()
+        
+        scnView.debugOptions = .ShowPhysicsShapes
+        
+        
+        addTunnelPieces()
     }
   
+    
+    func addTunnelPieces() {
+    
+        let box1 = SCNBox(width: 4, height: 4, length: 4, chamferRadius: 0)
+        let box1PhysicsShape = SCNPhysicsShape(geometry: box1, options: nil)
+        let box2 = SCNBox(width: 1, height: 1, length: 8, chamferRadius: 0)
+        let box2PhysicsShape = SCNPhysicsShape(geometry: box2, options: nil)
+        
+        let compoundPhysicsShape = SCNPhysicsShape(shapes: [box1PhysicsShape, box2PhysicsShape], transforms: [NSValue(SCNMatrix4: SCNMatrix4MakeTranslation(0, 0, 0)), NSValue(SCNMatrix4: SCNMatrix4MakeTranslation(0, 0, 6))])
+        
+        let compoundPhysicsBody = SCNPhysicsBody(type: .Static, shape: compoundPhysicsShape)
+        let compoundPhysicsBodyNode = SCNNode()
+        compoundPhysicsBodyNode.physicsBody = compoundPhysicsBody;
+        compoundPhysicsBodyNode.eulerAngles.x = Float(M_PI_4)
+        compoundPhysicsBodyNode.position.z = -0.5
+        
+        scene.rootNode.addChildNode(compoundPhysicsBodyNode)
+        
+        
+        
+        let sphereShape = SCNSphere(radius: 1)
+        let sphereNode = SCNNode(geometry: sphereShape)
+        sphereNode.physicsBody = SCNPhysicsBody(type: .Dynamic, shape: nil)
+        sphereNode.physicsBody!.mass = 500
+        sphereNode.position.y = 10
+        
+        scene.rootNode.addChildNode(sphereNode)
+        
+        
+    }
+    
     override func shouldAutorotate() -> Bool {
         return true
     }
